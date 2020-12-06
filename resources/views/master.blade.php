@@ -17,7 +17,7 @@
 </body>
 <style>
     .custom-login{
-        height: 500px;
+        height: 600px;
         padding-top: 100px;
     }
     img.slider-img{
@@ -47,6 +47,32 @@
     left: -70px;
     right: auto;
     background: none;
+    }
+    .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-color:#333;
+    }
+    .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-color: rgb(139, 1, 251);
+    }
+    .trending-img{
+      height: 100px;
+    }
+    .trending-item{
+      float: left;
+      width: 20%;
+    }
+    .trending-wrapper{
+      margin: 20px;
     }
 </style>
 </html>

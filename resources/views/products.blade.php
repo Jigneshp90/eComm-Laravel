@@ -8,6 +8,8 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -33,6 +35,18 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+  <!-- Trending Products -->
+  <div class="trending-wrapper">
+    <h1>Trending Products</h1>
+      <div class="">
+        @foreach ($products as $item)
+            <div class="trending-item">
+              <img class="trending-img" src="{{$item['gallery']}}">
+                <div class="">
+                  <h3>{{$item['name']}}</h3>
+                </div>
+          </div>
+        @endforeach
+    </div>
 </div>
-
 @endsection
