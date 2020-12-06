@@ -25,6 +25,10 @@
     }
     .custom-product{
       height: 500px;
+      text-align: center;
+    }
+    .custom-product a:hover{
+      text-decoration: none;
     }
     .carousel-caption {
     position: absolute;
@@ -73,6 +77,9 @@
     }
     .trending-wrapper{
       margin: 20px;
+    }
+    .detail-img{
+      height: 400px;
     }
 </style>
 </html>
