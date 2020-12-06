@@ -81,5 +81,11 @@
     .detail-img{
       height: 400px;
     }
+    .search-box{
+      width: 500px !important;
+    }
+    .search-wrapper{
+      text-align: left;
+    }
 </style>
 </html>
