@@ -20,5 +20,33 @@
         height: 500px;
         padding-top: 100px;
     }
+    img.slider-img{
+      height: 400px !important;
+    }
+    .custom-product{
+      height: 500px;
+    }
+    .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(251 251 251);
+    }
+    .carousel-control.right {
+    right: -70px;
+    left: auto;
+    background: none;
+    }
+    .carousel-control.left {
+    left: -70px;
+    right: auto;
+    background: none;
+    }
 </style>
 </html>
