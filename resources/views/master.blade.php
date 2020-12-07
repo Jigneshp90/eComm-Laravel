@@ -25,7 +25,7 @@
     }
     .custom-product{
       height: 500px;
-      text-align: center;
+      /* text-align: center; */
     }
     .custom-product a:hover{
       text-decoration: none;
@@ -79,13 +79,17 @@
       margin: 20px;
     }
     .detail-img{
-      height: 400px;
+      height: 300px;
     }
     .search-box{
       width: 500px !important;
     }
     .search-wrapper{
       text-align: left;
+    }
+    .cart-list-devider{
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
     }
 </style>
 </html>
