@@ -74,6 +74,7 @@
     .trending-item{
       float: left;
       width: 20%;
+      text-align: center;
     }
     .trending-wrapper{
       margin: 20px;
