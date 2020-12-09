@@ -30,17 +30,17 @@
             </tr>
         </tbody>
     </table>
-    <form action="/action_page.php">
+    <form action="orderplace" method="POST">
+      @csrf
       <div class="form-group">
         <label for="">Address & Contact Details</label>
-        <textarea class="form-control"></textarea>
+        <textarea class="form-control" placeholder="Enter Your Address" name="address"></textarea>
       </div>
       <div class="form-group">
           <label for="">Payment Methods</label>
-          <p><input type="radio" name="payment"><span>Online Payment</span></p>
-          <p><input type="radio" name="payment"><span>Credit Card Payment</span></p>
-          <p><input type="radio" name="payment"><span>Pay with Dabit Card</span></p>
-          <p><input type="radio" name="payment"><span>Cash on Delivery</span></p>
+          <p><input type="radio" value="cash" name="payment"><span>Online Payment</span></p>
+          <p><input type="radio" value="cash" name="payment"><span>Credit Card Payment</span></p>
+          <p><input type="radio" value="cash" name="payment"><span>Cash on Delivery</span></p>
       </div>
       <button type="submit" class="btn btn-success">Order Now</button>
     </form>
